@@ -36,7 +36,7 @@ spring:
     gateway:
       routes:
         - id: order
-          uri: http://order:8080
+          uri: http://my-order:8080
           predicates:
             - Path=/orders/** 
         - id: delivery
